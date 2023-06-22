@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT Summary</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="article">
+            <label style="background-color: #2190ff;">Original Text</label>
+            <textarea name="article-txt" id="article-txt" cols="30" rows="10"></textarea>
+            <button id="submit">Summary</button>
+        </div>
+
+        <div class="summary-area">
+            <label style="background-color: rgb(45, 155, 118);">Generated Summary</label>
+            <p class="summary-txt"></p>
+            <span id="words_count">Words: </span>
+        </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
